@@ -273,3 +273,34 @@ app.listen(PORT, () => {
 // });
 
 // module.exports = app;
+
+
+
+
+
+
+
+// {
+//     "version": 2,
+//     "builds": [
+//       {
+//         "src": "api/index.js",
+//         "use": "@vercel/node"
+//       },
+//       {
+//         "src": "client/dist",
+//         "use": "@vercel/static"
+//       }
+//     ],
+//     "routes": [
+//       {
+//         "src": "/api/(.*)",
+//         "dest": "api/index.js"
+//       },
+//       {
+//         "src": "/(.*)",
+//         "dest": "client/dist/index.html"
+//       }
+//     ]
+//   }
+  
