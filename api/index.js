@@ -132,8 +132,4 @@ app.listen(PORT, () => {
 
 
 
-//         "dest": "client/dist/index.html"
-//       }
-//     ]
-//   }
   
